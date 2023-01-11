@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+@layer components {
+  .card {
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.xl');
+  }
+
+  /* ... */
+}
+
+/* style the icon */
+.icon {
+  background: url(./assets/g-normal.png) transparent 5px 50% no-repeat;
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+}
