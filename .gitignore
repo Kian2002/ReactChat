@@ -13,6 +13,7 @@ dist-ssr
 *.local
 .eslintrc.json
 .env
+.firebase
 
 # Editor directories and files
 .vscode/*
